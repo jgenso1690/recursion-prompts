@@ -22,7 +22,7 @@ var factorial = function(n) {
 // sum([1,2,3,4,5,6]); // 21
 var sum = function(array) {
 	
-	var i = length -1
+	var i = array.length -1
 	if (i === 0){
 		return array[i];
 	}

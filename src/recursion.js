@@ -8,7 +8,7 @@
 // factorial(5); // 120
 var factorial = function(n) {
 	if (n<0 ){
-	return -1;
+	return null;
 	}
 	if (n === 0) {
 		return 1;

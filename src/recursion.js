@@ -40,7 +40,7 @@ var arraySum = function(array) {
 		return 0;
 	}
 
-	return array[0] + sum(array.slice(1));
+	return array[0] + arraySum(array.slice(1));
 
 };
 

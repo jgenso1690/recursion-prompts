@@ -34,7 +34,7 @@ var sum = function(array) {
 // arraySum([1,[2,3],[[4]],5]); // 15
 var arraySum = function(array) {
 
-	array = flatten(array)
+	array = flat(array)
 	if (array.length === 0){
 		return 0;
 	}

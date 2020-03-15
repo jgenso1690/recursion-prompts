@@ -35,6 +35,7 @@ var sum = function(array) {
 var arraySum = function(array) {
 
 	array = array.flat()
+	array = Number(array)
 	if (array.length === 0){
 		return 0;
 	}

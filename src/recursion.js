@@ -27,7 +27,7 @@ var sum = function(array) {
 		return array[i];
 	}
 
-	return array[i] + sum(array[i-1]);
+	return array[i] + sum(array.pop());
 };
 
 // 3. Sum all numbers in an array containing nested arrays.
